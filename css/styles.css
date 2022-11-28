@@ -1,0 +1,199 @@
+:root {
+  --brand-color: #212121;
+  --black: #000;
+  --blue: #2196f3;
+  --grey: #757575;
+  --white: #ffffff;
+  --dirtywhite: rgba(255, 255, 255, 0.6);
+  --darkblue-background: #2f303a;
+  --lightgray-background: #f5f4fa;
+  --white-background: #ffffff;
+  --blue-hover-focus: #2196f3;
+  --verylightgrey: #eeeeee;
+}
+body {
+  color: var(--brand-color);
+  background-color: var(--white-background);
+  font-family: 'Roboto', sans-serif;
+}
+.logo {
+  color: var(--black);
+  background-color: var(--white-background);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  line-height: 1, 19;
+  text-decoration: none;
+}
+.logo .logo-firstpart {
+  color: var(--blue);
+}
+.nav-list {
+  background-color: var(--white-background);
+}
+.nav-links .link {
+  color: var(--brand-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
+.contact-links {
+  background-color: var(--white-background);
+}
+.contact-links .link {
+  color: var(--grey);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
+.title-section {
+  background-color: var(--darkblue-background);
+}
+.title {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.booking {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: var(--lightgray-background);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: var(--lightgray-background);
+  cursor: pointer;
+}
+.booking:hover,
+.booking:focus {
+  background-color: var(--blue-hover-focus);
+  color: var(--white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: var(--blue-hover-focus);
+}
+.title-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+.container-our-job {
+  background-color: var(--white-background);
+}
+.container-title {
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.container-team {
+  background-color: var(--lightgray-background);
+}
+.team-member {
+  background-color: var(--white-background);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-member-position {
+  font-size: 16px;
+  line-height: 1, 19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+.info {
+  font-size: 14px;
+  line-height: 1, 71x;
+  letter-spacing: 0.03em;
+  background-color: var(--darkblue-background);
+}
+.info > .logo {
+  color: var(--white);
+  background-color: var(--darkblue-background);
+}
+.info .contact-links {
+  background-color: var(--darkblue-background);
+  color: var(--dirtywhite);
+}
+.address-data {
+  font-style: normal;
+  color: var(--white);
+}
+.link:hover,
+.link:focus {
+  color: var(--blue-hover-focus);
+}
+.link {
+  text-decoration: none;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--blue);
+}
+.mail {
+  text-decoration: underline;
+}
+.menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--lightgray-background);
+  border-radius: 4px;
+  border-color: var(--lightgray-background);
+  cursor: pointer;
+}
+.menu-item:hover,
+.menu-item:focus {
+  background-color: var(--blue-hover-focus);
+  color: var(--white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border-color: var(--blue-hover-focus);
+}
+.example {
+  background: var(--white-background);
+  border: 1px solid var(--verylightgrey);
+}
+.description {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--brand-color);
+}
+.field {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
