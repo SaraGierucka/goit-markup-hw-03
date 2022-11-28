@@ -11,6 +11,14 @@
   --blue-hover-focus: #2196f3;
   --verylightgrey: #eeeeee;
 }
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ul {
+  list-style: none;
+}
 body {
   color: var(--brand-color);
   background-color: var(--white-background);
