@@ -14,7 +14,6 @@
 h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
   padding: 0;
-  border: 0;
 }
 ul {
   list-style: none;
@@ -68,6 +67,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 150px 339px 210px;
 }
 .booking {
   font-weight: 700;
@@ -142,7 +142,7 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--darkblue-background);
 }
-.info > .logo {
+.info > .container > .logo {
   color: var(--white);
   background-color: var(--darkblue-background);
 }
@@ -206,5 +206,19 @@ body {
   color: var(--grey);
 }
 .container {
-  width: 1200px;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+} 
+.nav-links {
+  display: flex;
+  gap: 34,5px;
 }
