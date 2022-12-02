@@ -30,7 +30,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  line-height: 1, 19;
+  line-height: 1.19;
   text-decoration: none;
   /*
   margin: 18px 69,75px 18,75px 161,25px
@@ -46,7 +46,7 @@ body {
   color: var(--brand-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contact-links {
@@ -56,7 +56,7 @@ body {
   color: var(--grey);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   margin: 24px 37,5px
 }
@@ -68,7 +68,7 @@ body {
   color: var(--white);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -79,7 +79,7 @@ body {
 .booking {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -103,13 +103,13 @@ body {
 .title-text {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .text {
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--grey);
   margin-top: 10px;
@@ -120,7 +120,7 @@ body {
 }
 .container-title {
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0 auto 50px auto;
@@ -138,7 +138,7 @@ body {
 .team-member-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   padding-left: 99px;
@@ -149,7 +149,7 @@ body {
 }
 .team-member-position {
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--grey);
@@ -158,7 +158,7 @@ body {
 }
 .info {
   font-size: 14px;
-  line-height: 1, 71x;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   background-color: var(--darkblue-background);
 }
@@ -173,6 +173,7 @@ body {
 .address-data {
   font-style: normal;
   color: var(--white);
+  margin-top: 20px;
 }
 .link:hover,
 .link:focus {
@@ -270,4 +271,11 @@ body {
   align-items: center;
   gap: 30px
 }
-
+.info > .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.address-data > .contact-links > .link {
+  display: block;
+  margin-top: 9px;
+}
