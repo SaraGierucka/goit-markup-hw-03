@@ -32,9 +32,6 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.19;
   text-decoration: none;
-  /*
-  margin: 18px 69,75px 18,75px 161,25px
-  */
 }
 .logo .logo-firstpart {
   color: var(--blue);
@@ -58,7 +55,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin: 24px 37,5px
 }
 .title-section {
   background-color: var(--darkblue-background);
@@ -241,7 +237,9 @@ body {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid var(--verylightgrey) ;
+}
+.header-border {
+  border-bottom: 1px solid #ECECEC;
 }
 .logo-nav-flex {
   display: flex;
@@ -278,4 +276,12 @@ body {
 .address-data > .contact-links > .link {
   display: block;
   margin-top: 9px;
+}
+.flex-menu {
+display: flex;
+justify-content: center;
+gap: 8px;
+}
+.menu {
+  margin-bottom: 56px;
 }
